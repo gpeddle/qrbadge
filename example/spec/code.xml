@@ -1,0 +1,7 @@
+<?xml version ='1.0'?>
+<spec xmlns="spec">
+    <fileName>{UniqueId}-{LastName}.png</fileName>
+    <document orientation="portrait" height="350" width="350" margin="25" units="px">
+        <code width="325" height="325">{UniqueId}^{LastName}^{FirstName}</code>
+    </document>
+</spec>
