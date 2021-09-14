@@ -5,15 +5,16 @@ Generate simple event badges from the command line.
 ## Usage
 
 ```
-qrbadge -c config_file -i input_file -o output_dir
+qrbadge --input <input-file> --output <output-dir> --spec <spec-file> 
 ```
 
-- `config_file` - config/spec file describing the output format
+
 - `input_file` - a tab-separated text file with column headings
 - `output_dir` - writeable folder for output image files
+- `spec_file` - spec file describing the output image layout/formatting
 
 
-## Config files
+## Config file format
 
 Example:
 
@@ -29,6 +30,10 @@ Example:
     </document>
 </spec>
 ```
+
+## Data file format
+
+The data file format is tab-delimited, with the first row containing the field names.
 
 ## Running the Example
 
