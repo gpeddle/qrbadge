@@ -1,6 +1,6 @@
 # qrbadge
 
-Generate simple event badges from the command line.
+Generate simple event badges from delimited data.
 
 ## Usage
 
